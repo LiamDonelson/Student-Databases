@@ -42,7 +42,7 @@ namespace Student_Database
 
 
                 
-            if (chosenNumber>8 || chosenNumber <= 0)
+            if (chosenNumber>studentNames.Length || chosenNumber <= 0)
             {
                 Console.WriteLine("Can't do that!");
                 continue;
